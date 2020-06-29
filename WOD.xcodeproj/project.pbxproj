@@ -31,7 +31,6 @@
 		1897D68924AA827800CD2365 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897D68824AA827800CD2365 /* ColorManager.swift */; };
 		1897D68B24AA828900CD2365 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897D68A24AA828900CD2365 /* Data.swift */; };
 		1897D68D24AA829D00CD2365 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897D68C24AA829D00CD2365 /* Workout.swift */; };
-		1897D68F24AA82B300CD2365 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897D68E24AA82B300CD2365 /* UserData.swift */; };
 		1897D69424AA82F000CD2365 /* TabViewCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897D69324AA82F000CD2365 /* TabViewCategories.swift */; };
 		1897D69624AA830D00CD2365 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897D69524AA830D00CD2365 /* CategoryRow.swift */; };
 		1897D69824AA832300CD2365 /* WODRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897D69724AA832300CD2365 /* WODRow.swift */; };
@@ -43,6 +42,7 @@
 		1897D6A524AA83C900CD2365 /* SearchBarExpandable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897D6A424AA83C900CD2365 /* SearchBarExpandable.swift */; };
 		1897D6A724AA83E200CD2365 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897D6A624AA83E200CD2365 /* SearchBar.swift */; };
 		1897D6A924AA858400CD2365 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1897D6A824AA858400CD2365 /* Colors.xcassets */; };
+		1897D6AB24AA915300CD2365 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897D6AA24AA915300CD2365 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,7 +72,6 @@
 		1897D68824AA827800CD2365 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		1897D68A24AA828900CD2365 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		1897D68C24AA829D00CD2365 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
-		1897D68E24AA82B300CD2365 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		1897D69324AA82F000CD2365 /* TabViewCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewCategories.swift; sourceTree = "<group>"; };
 		1897D69524AA830D00CD2365 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		1897D69724AA832300CD2365 /* WODRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODRow.swift; sourceTree = "<group>"; };
@@ -84,6 +83,7 @@
 		1897D6A424AA83C900CD2365 /* SearchBarExpandable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarExpandable.swift; sourceTree = "<group>"; };
 		1897D6A624AA83E200CD2365 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		1897D6A824AA858400CD2365 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1897D6AA24AA915300CD2365 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,10 +165,10 @@
 		1897D68724AA826900CD2365 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1897D6AA24AA915300CD2365 /* UserData.swift */,
 				1897D68824AA827800CD2365 /* ColorManager.swift */,
 				1897D68A24AA828900CD2365 /* Data.swift */,
 				1897D68C24AA829D00CD2365 /* Workout.swift */,
-				1897D68E24AA82B300CD2365 /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -288,8 +288,8 @@
 				1897D6A324AA83AE00CD2365 /* WODCards.swift in Sources */,
 				1897D68D24AA829D00CD2365 /* Workout.swift in Sources */,
 				1897D65924AA819100CD2365 /* WOD.xcdatamodeld in Sources */,
-				1897D68F24AA82B300CD2365 /* UserData.swift in Sources */,
 				1897D69624AA830D00CD2365 /* CategoryRow.swift in Sources */,
+				1897D6AB24AA915300CD2365 /* UserData.swift in Sources */,
 				1897D69824AA832300CD2365 /* WODRow.swift in Sources */,
 				1897D65B24AA819100CD2365 /* ContentView.swift in Sources */,
 				1897D65624AA819100CD2365 /* SceneDelegate.swift in Sources */,
